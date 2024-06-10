@@ -1,5 +1,6 @@
 import React from 'react'
 import Container from './Container'
+import Logo from './Logo'
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
       <div className='py-4 border-b-[1px]'>
         <Container>
           <div className='flex flex-row justify-between items-center '>
-            <div>logo</div>
+              <Logo />
             <div>search</div>
             <div>menu</div>
           </div>
